@@ -13,8 +13,6 @@ App made with React.js and NextJS using Typescript during the NLW (Next Level We
 
 # 🚧 Under construction... 🚧
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 Run the development server:
@@ -35,4 +33,5 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## License
+
 The source code for the site is licensed under the MIT license, which you can find in the LICENSE.md file.
