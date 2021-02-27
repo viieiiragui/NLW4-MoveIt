@@ -36,7 +36,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   function resetCountdown() {
     clearTimeout(countdownTimeout);
     setIsActive(false);
-    setTime(0.1 * 60);
+    setTime(25 * 60);
     setHasFinished(false);
   }
 
@@ -64,4 +64,14 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
       {children}
     </CountdownContext.Provider>
   )
+}
+
+export function useCountdown(): CountdownContextData {
+  const context = useContext(CountdownContext);
+
+  if (!context) {
+    throw new Error('useCountdown must be used within a CountdownProvider');
+  }
+
+  return context;
 }

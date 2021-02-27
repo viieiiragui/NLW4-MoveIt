@@ -1,17 +1,48 @@
-.container {
+.homeContainer {
   height: 100vh;
-  max-width: 992px;
   margin: 0 auto;
-  padding: 2.5rem 2rem;
+
+  background: var(--blue);
 
   display: flex;
   flex-direction: column;
 }
 
-.container section {
+.homeContainer section {
   flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
-  align-content: center;
+}
+
+.homeBackground {
+  background: url("/background-logo.png") no-repeat;
+  background-size: contain;
+  background-position: center left;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem 2rem;
+}
+
+.homeContent h1 {
+  color: var(--white);
+  font-size: 2.25rem;
+  margin-top: 6rem;
+}
+
+.homeInformation {
+  max-width: 350px;
+  margin: 1.5rem 0 2.5rem 0;
+  color: var(--text-highlight);
+  font-size: 1.25rem;
+
+  display: flex;
+}
+
+.homeInformation img {
+  margin-right: 2rem;
 }
