@@ -47,4 +47,4 @@ This is a project developed during the Next Level Week, presented by [@Rocketsea
 
 ## 📝 License
 
-The source code for the site is licensed under the MIT license, which you can find in the LICENSE.md file.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
