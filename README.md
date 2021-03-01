@@ -16,14 +16,14 @@
   <a href="#license">License</a>
 </p>
 
-## 🧪 Technologies
+## 🧪Technologies
 
 This project was developed using the following technologies:
 * [Next.js](https://nextjs.org/)
 * [React](https://reactjs.org)
 * [Typescript](https://www.typescriptlang.org/)
 
-## 🚀 Getting Started
+## 🚀Getting Started
 
 Clone this project and access the folder
 
@@ -41,10 +41,10 @@ $ yarn
 $ yarn dev
 ```
 
-## 💻 Project
+## 💻Project
 
 This is a project developed during the Next Level Week, presented by [@Rocketseat](https://github.com/Rocketseat) during February 22-28, 2021.
 
-## 📝 License
+## 📝License
 
 The source code for the site is licensed under the MIT license, which you can find in the LICENSE.md file.
